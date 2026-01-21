@@ -173,3 +173,9 @@
   Status: UPDATED
   Timestamp: 2026-01-21 14:55:03
   Notes: Removed Google font dependencies to avoid build-time fetch failures; switched to system font stack.
+
+## Task Updates
+- Task: Task 6.1
+  Status: UPDATED
+  Timestamp: 2026-01-21 15:00:22
+  Notes: Removed unsupported Lenis option to fix TypeScript build error.

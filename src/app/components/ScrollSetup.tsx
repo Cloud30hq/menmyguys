@@ -25,7 +25,6 @@ export default function ScrollSetup() {
     const lenis = new Lenis({
       duration: 1.1,
       smoothWheel: true,
-      smoothTouch: false,
     });
 
     const syncScroll = (time: number) => {
