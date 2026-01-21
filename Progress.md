@@ -179,3 +179,43 @@
   Status: UPDATED
   Timestamp: 2026-01-21 15:00:22
   Notes: Removed unsupported Lenis option to fix TypeScript build error.
+
+## Task Updates
+- Task: Task 6.1
+  Status: UPDATED
+  Timestamp: 2026-01-21 15:41:33
+  Notes: Applied a light UI polish pass with consistent background and refined card hover depth.
+
+## Task Updates
+- Task: Task 7.1
+  Status: COMPLETED
+  Timestamp: 2026-01-21 15:43:25
+  Notes: Added SEO metadata, Open Graph, and Twitter card tags.
+
+- Task: Task 7.2
+  Status: COMPLETED
+  Timestamp: 2026-01-21 15:43:25
+  Notes: Completed final review checklist for performance, premium feel, and message clarity.
+
+- Task: Task 7.3
+  Status: TODO
+  Timestamp: 2026-01-21 15:43:25
+  Notes: Deploy to Vercel manually from the dashboard.
+
+## Task Updates
+- Task: Task 6.1
+  Status: UPDATED
+  Timestamp: 2026-01-21 15:47:23
+  Notes: Reduced How It Works pin length to speed up step transitions.
+
+## Task Updates
+- Task: Task 6.1
+  Status: UPDATED
+  Timestamp: 2026-01-21 15:50:28
+  Notes: Reduced How It Works step transition gap to minimize scroll wait between steps.
+
+## Task Updates
+- Task: Task 6.1
+  Status: UPDATED
+  Timestamp: 2026-01-21 15:54:10
+  Notes: Disabled How It Works pinning on mobile and ensured all steps/images render immediately.

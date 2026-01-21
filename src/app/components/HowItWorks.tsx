@@ -34,7 +34,7 @@ export default function HowItWorks() {
               <div
                 key={step.title}
                 data-step
-                className="rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_12px_30px_rgba(15,23,42,0.06)]"
+                className="rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_12px_30px_rgba(15,23,42,0.06)] transition hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(15,23,42,0.1)]"
               >
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#E10600] text-sm font-semibold text-white">
                   0{index + 1}
@@ -55,18 +55,18 @@ export default function HowItWorks() {
               </div>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative space-y-4 lg:space-y-0">
             {steps.map((step, index) => (
               <div
                 key={step.title}
                 data-step-image
-                className="absolute inset-0 flex h-80 items-center justify-center rounded-3xl border border-dashed border-slate-200 bg-white text-xs text-[#6B6B6B]"
+                className="flex h-64 items-center justify-center rounded-3xl border border-dashed border-slate-200 bg-white text-xs text-[#6B6B6B] lg:absolute lg:inset-0 lg:h-80"
                 style={{ zIndex: steps.length - index }}
               >
                 Image placeholder {index + 1}
               </div>
             ))}
-            <div className="h-80 rounded-3xl border border-slate-200 bg-[#EDEDED]" />
+            <div className="hidden h-80 rounded-3xl border border-slate-200 bg-[#EDEDED] lg:block" />
           </div>
         </div>
       </div>

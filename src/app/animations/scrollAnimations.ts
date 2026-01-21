@@ -75,7 +75,7 @@ export function initScrollAnimations(container: HTMLElement | null) {
             scrollTrigger: {
               trigger: howItWorks,
               start: "top top",
-              end: "+=90%",
+              end: "+=60%",
               scrub: true,
               pin: true,
               pinSpacing: true,
@@ -86,10 +86,10 @@ export function initScrollAnimations(container: HTMLElement | null) {
           steps.forEach((step, index) => {
             const image = images[index];
             timeline
-              .to(step, { opacity: 1, y: 0 }, index === 0 ? 0 : "+=0.2")
+              .to(step, { opacity: 1, y: 0 }, index === 0 ? 0 : "+=0.05")
               .to(
                 steps.filter((_, stepIndex) => stepIndex !== index),
-                { opacity: 0.35, y: -6, duration: 0.4 },
+                { opacity: 0.35, y: -6, duration: 0.35 },
                 "<"
               );
 
@@ -115,6 +115,15 @@ export function initScrollAnimations(container: HTMLElement | null) {
             timeline.scrollTrigger?.kill();
             timeline.kill();
           };
+        },
+        "(max-width: 1023px)": () => {
+          gsap.set(steps, { opacity: 1, y: 0 });
+          gsap.set(images, { opacity: 1, y: 0 });
+          if (progressBar) {
+            gsap.set(progressBar, { scaleX: 1 });
+          }
+
+          return () => {};
         },
       });
     }
