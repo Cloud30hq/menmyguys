@@ -1,23 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
-
-const jakartaSans = Plus_Jakarta_Sans({
-  variable: "--font-jakarta-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const geistSans = Plus_Jakarta_Sans({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Menmyguys",
@@ -31,9 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${jakartaSans.variable} ${geistSans.variable} ${geistMono.variable} min-h-screen bg-[#FAFAFA] text-[#1A1A1A] antialiased`}
-      >
+      <body className="min-h-screen bg-[#FAFAFA] text-[#1A1A1A] antialiased">
         <div id="smooth-wrapper" className="min-h-screen">
           <div id="smooth-content">
             <header className="fixed left-0 top-0 z-50 w-full">

@@ -225,3 +225,11 @@ Validation Notes:
 - Confirmed motion.button now accepts motion-specific event handlers without TS conflicts.
 Status: PASS
 Timestamp: 2026-01-21 14:51:28
+
+## Task 6.1 Follow-up Review
+Explanation: Removed next/font Google font usage to prevent build failures when font downloads are blocked.
+Validation Notes:
+- Confirmed layout no longer imports Google fonts.
+- Globals now use a system font stack.
+Status: PASS
+Timestamp: 2026-01-21 14:55:03
