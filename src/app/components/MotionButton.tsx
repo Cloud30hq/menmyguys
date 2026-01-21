@@ -1,9 +1,9 @@
 "use client";
 
-import type { ButtonHTMLAttributes } from "react";
+import type { HTMLMotionProps } from "framer-motion";
 import { motion, useReducedMotion } from "framer-motion";
 
-type MotionButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
+type MotionButtonProps = HTMLMotionProps<"button">;
 
 export default function MotionButton({ className, ...props }: MotionButtonProps) {
   const prefersReducedMotion = useReducedMotion();

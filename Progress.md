@@ -161,3 +161,9 @@
   Status: UPDATED
   Timestamp: 2026-01-21 14:45:55
   Notes: Lightened Restaurants and Testimonials sections to match the neutral site palette.
+
+## Task Updates
+- Task: Task 6.1
+  Status: UPDATED
+  Timestamp: 2026-01-21 14:51:28
+  Notes: Fixed MotionButton typing to use Framer Motion props for build compatibility.
