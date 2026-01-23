@@ -19,7 +19,7 @@ export default function Riders() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-center">
           <div>
-            <p className="inline-flex items-center rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#E10600] shadow-[0_10px_25px_rgba(225,6,0,0.1)]">
+            <p className="inline-flex items-center rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#000000] shadow-[0_10px_25px_rgba(0,0,0,0.1)]">
               For riders
             </p>
             <h2 className="mt-5 text-3xl font-semibold tracking-tight text-[#1A1A1A] md:text-4xl">
@@ -34,7 +34,7 @@ export default function Riders() {
                 <div
                   key={benefit.title}
                   data-rider-card
-                  className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-1 hover:shadow-md"
+                  className="rounded-2xl border border-slate-200 bg-white p-5 transition hover:-translate-y-1 hover:shadow-[0_18px_40px_rgba(15,23,42,0.12)]"
                 >
                   <h3 className="text-lg font-semibold text-slate-900">{benefit.title}</h3>
                   <p className="mt-2 text-sm text-slate-600">{benefit.description}</p>
@@ -51,13 +51,13 @@ export default function Riders() {
                 <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
                   Avg. weekly earnings
                 </p>
-                <p className="mt-2 text-2xl font-semibold text-[#E10600]">₦180k+</p>
+                <p className="mt-2 text-2xl font-semibold text-[#000000]">₦180k+</p>
               </div>
               <div className="rounded-2xl bg-white p-4 shadow-sm">
                 <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
                   Peak-hour bonus
                 </p>
-                <p className="mt-2 text-2xl font-semibold text-[#E10600]">3x</p>
+                <p className="mt-2 text-2xl font-semibold text-[#000000]">3x</p>
               </div>
             </div>
           </div>

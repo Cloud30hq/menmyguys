@@ -18,7 +18,7 @@ export default function HowItWorks() {
     <section data-howitworks className="bg-[#FAFAFA] py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
-          <p className="inline-flex items-center rounded-full bg-[#EDEDED] px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#E10600]">
+          <p className="inline-flex items-center rounded-full bg-[#EDEDED] px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#000000]">
             How it works
           </p>
           <h2 className="mt-5 text-3xl font-semibold tracking-tight text-[#1A1A1A] md:text-4xl">
@@ -36,7 +36,7 @@ export default function HowItWorks() {
                 data-step
                 className="rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_12px_30px_rgba(15,23,42,0.06)] transition hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(15,23,42,0.1)]"
               >
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#E10600] text-sm font-semibold text-white">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#000000] text-sm font-semibold text-white">
                   0{index + 1}
                 </div>
                 <h3 className="mt-6 text-xl font-semibold text-slate-900">{step.title}</h3>
@@ -50,7 +50,7 @@ export default function HowItWorks() {
               <div className="h-2 flex-1 overflow-hidden rounded-full bg-[#EDEDED]">
                 <div
                   data-progress-bar
-                  className="h-full origin-left scale-x-0 rounded-full bg-[#E10600]"
+                  className="h-full origin-left scale-x-0 rounded-full bg-[#000000]"
                 />
               </div>
             </div>

@@ -3,7 +3,23 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Menmyguys",
-  description: "Modern food delivery platform landing page.",
+  description:
+    "Menmyguys is a modern food delivery platform for fast, reliable, and delightful meals.",
+  metadataBase: new URL("https://menmyguys.vercel.app"),
+  openGraph: {
+    title: "Menmyguys",
+    description:
+      "Order food from top restaurants and get it delivered fast with Menmyguys.",
+    url: "/",
+    siteName: "Menmyguys",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Menmyguys",
+    description:
+      "Order food from top restaurants and get it delivered fast with Menmyguys.",
+  },
 };
 
 export default function RootLayout({
@@ -19,7 +35,7 @@ export default function RootLayout({
             <header className="fixed left-0 top-0 z-50 w-full">
               <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
                 <div className="flex items-center gap-3 rounded-full bg-white px-4 py-2 shadow-[0_10px_30px_rgba(15,23,42,0.08)]">
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#E10600] text-sm font-semibold text-white">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#000000] text-sm font-semibold text-white">
                     M
                   </span>
                   <span className="text-sm font-semibold tracking-tight text-[#1A1A1A]">
@@ -44,9 +60,9 @@ export default function RootLayout({
                   <button className="hidden rounded-full bg-white px-5 py-2 text-sm font-semibold text-[#1A1A1A] shadow-[0_10px_30px_rgba(15,23,42,0.08)] transition hover:bg-[#EDEDED] lg:inline-flex">
                     More
                   </button>
-                  <button className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[#E10600] text-white shadow-[0_10px_30px_rgba(225,6,0,0.3)]">
+                  {/* <button className="inline-flex h-11 w-11 items-center justify-center rounded-full bg-[#000000] text-white shadow-[0_10px_30px_rgba(0,0,0,0.3)]">
                     ☰
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </header>

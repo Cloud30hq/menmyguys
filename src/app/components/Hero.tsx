@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section ref={sectionRef} className="relative overflow-hidden bg-[#FAFAFA] text-[#1A1A1A]">
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -left-16 top-10 h-72 w-72 rounded-full bg-[#F5C6C6]/40 blur-3xl" />
+        <div className="absolute -left-16 top-10 h-72 w-72 rounded-full bg-[#000000]/40 blur-3xl" />
         <div className="absolute -right-20 top-24 h-72 w-72 rounded-full bg-white/70 blur-3xl" />
         <div className="absolute bottom-[-120px] left-[10%] h-60 w-60 rounded-full bg-white/60 blur-2xl" />
       </div>
@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="max-w-xl">
           <div
             data-hero-badge
-            className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#E10600] shadow-[0_10px_30px_rgba(225,6,0,0.12)]"
+            className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#000000] shadow-[0_10px_30px_rgba(0,0,0,0.12)]"
           >
             Fast. Fresh. Delivered.
           </div>
@@ -37,10 +37,10 @@ export default function Hero() {
             Food, groceries, and essentials arrive fast and stress-free.
           </p>
           <div data-hero-cta className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <MotionButton className="rounded-full bg-[#E10600] px-7 py-3 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(225,6,0,0.35)] transition hover:-translate-y-0.5 hover:bg-[#C90500] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E10600] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAFAFA]">
+            <MotionButton className="rounded-full bg-[#000000] px-7 py-3 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(0,0,0,0.35)] transition hover:-translate-y-0.5 hover:bg-[#000000] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#000000] focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAFAFA]">
               Download the App
             </MotionButton>
-            <MotionButton className="rounded-full border border-[#E10600]/30 px-7 py-3 text-sm font-semibold text-[#E10600] transition hover:-translate-y-0.5 hover:border-[#E10600] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E10600]/40 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAFAFA]">
+            <MotionButton className="rounded-full border border-[#000000]/30 px-7 py-3 text-sm font-semibold text-[#000000] transition hover:-translate-y-0.5 hover:border-[#000000] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#000000]/40 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAFAFA]">
               Join as a Partner
             </MotionButton>
           </div>
@@ -51,7 +51,7 @@ export default function Hero() {
           </div>
         </div>
         <div data-hero-mockup className="relative mx-auto w-full max-w-sm">
-          <div className="absolute -top-10 right-8 h-20 w-20 rounded-full bg-[#F5C6C6]" />
+          <div className="absolute -top-10 right-8 h-20 w-20 rounded-full bg-[#000000]" />
           <div className="absolute -bottom-6 left-6 h-16 w-16 rounded-full bg-white" />
           <div className="rounded-[2.5rem] border border-white/70 bg-white p-6 shadow-[0_20px_40px_rgba(15,23,42,0.12)]">
             <div className="flex h-[460px] flex-col items-center justify-center gap-4 rounded-[2rem] border border-dashed border-slate-200 bg-[#F8FAF9]">

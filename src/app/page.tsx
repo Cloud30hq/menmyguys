@@ -8,7 +8,7 @@ import ScrollSetup from "./components/ScrollSetup";
 
 export default function Home() {
   return (
-    <main id="scroll-root" className="min-h-screen bg-white">
+    <main id="scroll-root" className="min-h-screen bg-[#FAFAFA]">
       <ScrollSetup />
       <Hero />
       <HowItWorks />
