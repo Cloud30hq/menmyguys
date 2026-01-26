@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CookieSettings from "./components/CookieSettings";
 
 export const metadata: Metadata = {
   title: "Menmyguys",
@@ -69,6 +70,7 @@ export default function RootLayout({
             {children}
           </div>
         </div>
+        <CookieSettings />
       </body>
     </html>
   );
