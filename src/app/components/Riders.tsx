@@ -43,8 +43,13 @@ export default function Riders() {
             </div>
           </div>
           <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_20px_40px_rgba(15,23,42,0.08)]">
-            <div className="flex h-64 items-center justify-center rounded-[1.5rem] border border-dashed border-slate-200 text-sm text-slate-400">
-              Rider imagery placeholder
+            <div className="h-64 overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white">
+              <img
+                src="/riders.png"
+                alt="Menmyguys rider"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
             </div>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl bg-white p-4 shadow-sm">

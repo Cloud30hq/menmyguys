@@ -50,9 +50,14 @@ export default function Restaurants() {
           <div className="w-full max-w-sm rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_20px_40px_rgba(15,23,42,0.08)]">
             <div
               data-parallax
-              className="flex h-64 items-center justify-center rounded-[1.5rem] border border-dashed border-slate-200 text-sm text-[#6B6B6B]"
+              className="h-64 overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white"
             >
-              Restaurant imagery placeholder
+              <img
+                src="/restuarant.png"
+                alt="Restaurant partner preview"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
             </div>
             <div className="mt-6 space-y-4">
               {stats.map((stat) => (

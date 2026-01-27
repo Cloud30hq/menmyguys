@@ -36,8 +36,8 @@ export default function RootLayout({
             <header className="fixed left-0 top-0 z-50 w-full">
               <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
                 <div className="flex items-center gap-3 rounded-full bg-white px-4 py-2 shadow-[0_10px_30px_rgba(15,23,42,0.08)]">
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#000000] text-sm font-semibold text-white">
-                    M
+                  <span className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-[#000000]">
+                    <img src="/logo.png" alt="Menmyguys logo" className="h-full w-full object-cover" />
                   </span>
                   <span className="text-sm font-semibold tracking-tight text-[#1A1A1A]">
                     Menmyguys

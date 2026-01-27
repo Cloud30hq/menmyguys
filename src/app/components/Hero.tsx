@@ -54,11 +54,17 @@ export default function Hero() {
           <div className="absolute -top-10 right-8 h-20 w-20 rounded-full bg-[#000000]" />
           <div className="absolute -bottom-6 left-6 h-16 w-16 rounded-full bg-white" />
           <div className="rounded-[2.5rem] border border-white/70 bg-white p-6 shadow-[0_20px_40px_rgba(15,23,42,0.12)]">
-            <div className="flex h-[460px] flex-col items-center justify-center gap-4 rounded-[2rem] border border-dashed border-slate-200 bg-[#F8FAF9]">
-              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-400">
-                App Preview
-              </span>
-              <span className="text-sm text-slate-500">Phone mockup placeholder</span>
+            <div className="h-[460px] overflow-hidden rounded-[2rem] border border-slate-200 bg-[#F8FAF9]">
+              <video
+                className="h-full w-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+              >
+                <source src="/hero.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
         </div>

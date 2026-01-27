@@ -55,18 +55,15 @@ export default function HowItWorks() {
               </div>
             </div>
           </div>
-          <div className="relative space-y-4 lg:space-y-0">
-            {steps.map((step, index) => (
-              <div
-                key={step.title}
-                data-step-image
-                className="flex h-64 items-center justify-center rounded-3xl border border-dashed border-slate-200 bg-white text-xs text-[#6B6B6B] lg:absolute lg:inset-0 lg:h-80"
-                style={{ zIndex: steps.length - index }}
-              >
-                Image placeholder {index + 1}
-              </div>
-            ))}
-            <div className="hidden h-80 rounded-3xl border border-slate-200 bg-[#EDEDED] lg:block" />
+          <div className="relative">
+            <div className="h-[28rem] overflow-hidden rounded-3xl border border-slate-200 bg-white lg:h-[40rem]">
+              <img
+                src="/process.jpeg"
+                alt="Ordering process preview"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
