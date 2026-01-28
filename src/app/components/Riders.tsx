@@ -54,7 +54,7 @@ export default function Riders() {
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl bg-white p-4 shadow-sm">
                 <p className="text-xs uppercase tracking-[0.2em] text-slate-400">
-                  Avg. weekly earnings
+                  Avg. monthly earnings
                 </p>
                 <p className="mt-2 text-2xl font-semibold text-[#000000]">₦180k+</p>
               </div>
